@@ -36,7 +36,8 @@
     <gap:plugin source="npm" name="org.apache.cordova.file-transfer" />
     <gap:plugin source="npm" name="org.apache.cordova.geolocation" />
     <gap:plugin source="npm" name="org.apache.cordova.globalization" />
-    <gap:plugin source="npm" name="org.apache.cordova.inappbrowser" />
+    <!--<gap:plugin source="npm" name="org.apache.cordova.inappbrowser" />-->
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm"> 
     <gap:plugin source="npm" name="org.apache.cordova.media" />
     <gap:plugin source="npm" name="org.apache.cordova.network-information" />
     <gap:plugin source="npm" name="org.apache.cordova.splashscreen" />
